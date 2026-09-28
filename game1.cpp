@@ -69,16 +69,4 @@ int game() {
             outFile << score;
             outFile.close();
         }
-    }
-    
-    return score;
-}
-
-int main() {
-    // Seed the random number generator
-    srand(static_cast<unsigned int>(time(0)));
-    
-    game();
-    
-    return 0;
-}
+        
