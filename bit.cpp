@@ -6,6 +6,6 @@ using namespace std;
 int main() {
     int a=13,b;
     b=a<<2;
-    cout<<a<<b<<endl;
+    cout<<a <<" "<<b<<endl;
     return 0;
 }
